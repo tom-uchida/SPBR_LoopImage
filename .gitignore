@@ -1,0 +1,12 @@
+IMAGE_DATA/
+VIDEO_DATA/
+
+*.spbr
+.pgm
+.ppm
+aaa.cc
+*.txt
+*.o
+ffmpeg
+spbr
+opbr
