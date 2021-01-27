@@ -9,9 +9,12 @@ class sc : public kvs::glut::Screen
 
 private:
     const double end_rotate_angle = 360.0;
-    const int num_of_Image = 180;
-    // const int num_of_Image = 360;
 
+    // 画像の枚数の設定
+    const int num_of_Image = 180;
+    // const int num_of_Image = 360; 
+
+    // 回転軸の設定
     //enum ROTATEAXIS{XROTATE, YROTATE, ZROTATE}axis = ZROTATE; // Z軸周り
     enum ROTATEAXIS{XROTATE, YROTATE, ZROTATE}axis = YROTATE; // Y軸周り
 
