@@ -31,7 +31,7 @@
 
 #include "mainfn_utility.h"
 
-#include "createLoopImage.h"
+#include "create_loop_image.h"
 
 //#define DEBUG_MAIN
 

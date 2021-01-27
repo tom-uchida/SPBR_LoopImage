@@ -6,13 +6,15 @@ Generate series of images using SPBR.
 ## Usage
 ```bash
 $ cd SPBR_LoopImage
-$ ./spbr [input_file]
+$ sh config_spbr.sh
+$ make
+$ ./spbr_loop_image [input_file]
 ```
 
 ## Example
 #### SPBR file
 ```bash
-$ ./spbr header.spbr input_file.spbr
+$ ./spbr_loop_image header.spbr input_file.spbr
 ```
 
 #### PLY file
@@ -20,7 +22,7 @@ $ ./spbr header.spbr input_file.spbr
 $ ls -a
 .param.spbr
 
-$./spbr input_file.ply
+$./spbr_loop_image input_file.ply
 ```
 
 ## How to make video
