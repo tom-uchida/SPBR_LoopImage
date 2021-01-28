@@ -1,5 +1,10 @@
+.vscode/
+DOC/
+MAIN/
+
 IMAGE_DATA/
 VIDEO_DATA/
+SPBR_DATA/
 
 *.spbr
 .pgm
@@ -10,3 +15,12 @@ aaa.cc
 ffmpeg
 spbr
 opbr
+*.bmp
+*.sh
+
+Makefile
+Makefile.kvs
+Makefile.old
+Makefile.unix
+Makefile.vc
+Makefile.vc.kvs
